@@ -11,6 +11,7 @@ using namespace std;
 //     }
 //     return num;
 // }
+//
 
 
 int power(int base, int pow) {
@@ -19,7 +20,8 @@ int power(int base, int pow) {
     // 2. assumption
     // 3. cal. 
     
-    if (pow ==0) return 1;
+    if (pow ==0) 
+    return 1;
     
     int smlAns = power(base, pow -1);
     return smlAns*base;
